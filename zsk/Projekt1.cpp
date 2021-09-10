@@ -4,11 +4,11 @@ using namespace std;
 
 class worker{
 	public:
-		//deklaracje zmiennych cz³onkowskich (pól, w³aœciwoœci)
+		//deklaracje zmiennych czÅ‚onkowskich (pÃ³l, wÅ‚aÅ›ciwoÅ›ci)
 		string name;
 		string surname;
-		int age; //dokoñczyæ,sprawdziæ typ danych
-		//definicja funkcji cz³onkowskiej (metody)
+		int age; //dokoÅ„czyÄ‡,sprawdziÄ‡ typ danych
+		//definicja funkcji czÅ‚onkowskiej (metody)
 		void showSurname(){
 			cout<< "\nNazwisko pracownika: "<< surname;
 		};
@@ -20,7 +20,7 @@ class worker{
 //definicja metody showAllData
 
 void worker::showAllData(){
-	cout<< "\nImiê i Nazwisko: "<< name<< " "<< surname;
+	cout<< "\nImiÄ™ i Nazwisko: "<< name<< " "<< surname;
 }
 int main(int argc, char** argv) {
 	setlocale(LC_CTYPE,"polish");
